@@ -1,0 +1,62 @@
+:root {
+    --site-width: 1200px;
+    --header-height: 44px;
+
+    --grey-0-rgb: 255,255,255;
+    --grey-1-rgb: 247,247,247;
+    --grey-2-rgb: 240,240,240;
+    --grey-3-rgb: 229,229,229;
+    --grey-4-rgb: 217,217,217;
+    --grey-5-rgb: 191,191,191;
+    --grey-6-rgb: 140,140,140;
+    --grey-7-rgb: 89,89,89;
+    --grey-8-rgb: 38,38,38;
+    --grey-9-rgb: 0,0,0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 14px;
+    line-height: 1.42857;
+    background-color: rgba(var(--grey-1-rgb), 1);
+}
+
+header {
+    width: 100%;
+    height: var(--header-height);
+    background-color: rgba(var(--grey-0-rgb), 1);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+header .container {
+    max-width: var(--site-width);
+    height: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .container .site-title {
+    font-family: KaiTi, STKaiti;
+    font-size: 20px;
+}
+
+header .container nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+header .container nav ul li:last-child {
+    margin-right: 0;
+}
+header .container nav ul li a {
+    font-size: 13px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: calc(var(--header-height) + 10px) auto 10px;
+}

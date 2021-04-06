@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>javascript on 疯狂蜗牛</title>
+    <link>http://example.org/tags/javascript/</link>
+    <description>Recent content in javascript on 疯狂蜗牛</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>数据类型</title>
+      <link>http://example.org/notes/javascript/data-types/</link>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/notes/javascript/data-types/</guid>
+      <description>JavaScript 有六种数据类型，（ES6 新增一种 Symbol 类型）：
+ 数值（number） 字符串（string） 布尔值（boolean） undefined null 对象（object）  数值、字符串、布尔值属于原始类型，即他们是最基本的类型。至于 undefined 和 null，一般将他们看成两个特殊的值。 对象属于复合类型，它又分为三个子类型：
+ 狭义对象（object） 数组（array） 函数（function）  确定一个类型 JavaScript 有三种方法确定一个数据的类型：
+ typeof 运算符 instanceof 运算符 Object.prototype.toString 方法  对于数值、字符串、布尔值，typeof 运算符分别返回 number 、 string 、 boolean 。函数返回 function 。
+typeof 1; // &amp;#34;number&amp;#34; typeof &amp;#39;1&amp;#39;; // &amp;#34;string&amp;#34; typeof true; // &amp;#34;boolean&amp;#34;  function f() {} typeof f // &amp;#34;function&amp;#34; undefined 返回 &amp;ldquo;undefined。利用这一点，typeof 可以用来检查一个没有声明的变量，而不报错。实际编程中通常用于判断语句。
+v; // Uncaught ReferenceError: v is not defined  typeof v; // &amp;#34;undefined&amp;#34;  // 实际应用 if (typeof v === &amp;#34;undefined&amp;#34;) { // .</description>
+    </item>
+    
+    <item>
+      <title>运算符</title>
+      <link>http://example.org/notes/javascript/operators/</link>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/notes/javascript/operators/</guid>
+      <description>所有的比较运算符均返回布尔值
+不同类型间的比较 当对不同类型的值进行比较时，JavaScript 会首先将其转化为数字（number）再判定大小。
+== 和 === 严格相等运算符 === 在作比较时不会做任何类型转换。换句话说，如果两个值属于不同类型，那么两者将不会进行任何比较，直接返回 false。
+这里有一个特例，null 和 undefined, 当使用严格相等运算符比较时两者不等，因为两者属于不同类型。但是当用普通相等运算符 == 时，二者相等，这是因为 JavaScript 存在一个独立的特殊规则会判定二者相等。
+null == undefiled; // true 这个规则不会将二者转换为数字，而是直接判定相等，并且在此规则下，只有二者相等，二者不等于任何其他值。当使用其他数学式或比较方法 &amp;lt; &amp;gt; &amp;lt;= &amp;gt;= 时 null 及 undefined 则会被转换为数字：null 转为 0，undefined 转为 NaN。
+null &amp;gt; 0; false null == 0; false null &amp;gt;= 0; true </description>
+    </item>
+    
+  </channel>
+</rss>

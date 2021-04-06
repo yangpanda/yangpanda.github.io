@@ -1,0 +1,15 @@
+a {
+    cursor: pointer;
+    color: inherit;
+}
+a, a:active, a:hover, a:focus, a:visited {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+article {
+    box-sizing: border-box;
+}

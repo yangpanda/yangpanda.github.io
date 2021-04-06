@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PowerShell on 疯狂蜗牛</title>
+    <link>http://example.org/categories/powershell/</link>
+    <description>Recent content in PowerShell on 疯狂蜗牛</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/categories/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>powershell</title>
+      <link>http://example.org/notes/powershell/powershell/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/notes/powershell/powershell/</guid>
+      <description>启动脚本 PowerShellGet\Install-Module posh-git -Scope CurrentUser -AllowPrerelease -Force Install-Module PSReadLine -AllowPrerelease -Force Install-Module -Name yarn-completion Install-Module -Name NPMTabCompletion 环境变量 about_Automatic_Variables
+ $PSVersionTable: ps 版本信息 $PROFILE: 当前用户的启动配置文件  执行策略 默认的执行策略是 restricted, 即禁止运行任何脚本。Get-ExecutionPolicy 获取当前执行策略, Set-ExecutionPolicy -ExecutionPolicy 设置执行策略, 建议修改为 RemoteSigned.
+命令 Get-Member Get-Member 接受一个对象, 然后打印出对象的 Member.
+ Get-Member -MemberType: 选择打印 Member 的类型  Get-Command  Get-Command -ParameterType typename: 根据接受参数的类型查找命令 Get-Command -Module moduleName: 获取模块相关的命令  Select-Object  xxx | Select-Object -Property properties: 通过管道接收一个对象, 选择打印哪些 Property  Out-Host 打印字符串到屏幕</description>
+    </item>
+    
+  </channel>
+</rss>

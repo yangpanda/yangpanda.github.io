@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>html on 疯狂蜗牛</title>
+    <link>http://example.org/tags/html/</link>
+    <description>Recent content in html on 疯狂蜗牛</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>移动端适配</title>
+      <link>http://example.org/notes/css/mobile/</link>
+      <pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/notes/css/mobile/</guid>
+      <description>响应式 web 网页 响应式网页设计用到的现代技术：
+ 媒体查询 多列布局 flexbox grid viewport 响应式图像 响应式排版  viewport &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1&amp;gt;  initial-scale：设定了页面的初始缩放，我们设定为1。 width：设置视口宽度。 height：特别为视口设定一个高度。 minimum-scale：设定最小缩放级别。 maximum-scale：设定最大缩放级别。 user-scalable：如果设为no的话阻止缩放。  </description>
+    </item>
+    
+  </channel>
+</rss>

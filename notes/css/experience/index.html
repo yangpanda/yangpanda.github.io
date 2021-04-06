@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>疯狂蜗牛</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/article.css">
+    
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/vs.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+    
+</head><body><header>
+    <div class="container">
+        <a href="/" class="site-title">疯狂蜗牛</a>
+        <nav>
+            <ul>
+                
+                
+                <li>
+                    <a href="/tags/">标签</a>
+                </li>
+                
+                <li>
+                    <a href="/categories/">分类</a>
+                </li>
+                
+                <li>
+                    <a href="/about/">关于</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</header><div class="content">
+<article>
+    <div class="front-matter">
+        <div class="title">经验</div>
+        <div class="other-info">
+            <span class="author"></span>
+            <span class="date">发起于：2021-00-00</span>
+            <span class="lastmod">最近编辑于：2021-08-21</span>
+        </div>
+    </div>
+    <h2 id="被包裹的-img-元素与父元素下沿有一个缝隙">被包裹的 img 元素与父元素下沿有一个缝隙</h2>
+<p>img 的 display 属性默认是 inline, vertical-align 默认是 baseline, 所以 img 底部会与文字基线对齐, 造成缝隙的出现.</p>
+<p>解决方法有两个:</p>
+<ol>
+<li><code>vertical-align: middle</code></li>
+<li><code>display: block</code></li>
+</ol>
+<h2 id="文本超出部分显示为省略号">文本超出部分显示为省略号</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">ellipsis</span> {
+    <span style="color:#66d9ef">overflow</span>: <span style="color:#66d9ef">hidden</span>;
+    <span style="color:#66d9ef">text-overflow</span>: <span style="color:#66d9ef">ellipsis</span>;
+    <span style="color:#66d9ef">white-space</span>: <span style="color:#66d9ef">nowrap</span>;
+}
+</code></pre></div><h2 id="height-的-inherit-属性不生效">height 的 inherit 属性不生效</h2>
+<p>只有当父元素明确声明 height 时才会生效</p>
+
+</article>
+
+        </div></body>
+</html>

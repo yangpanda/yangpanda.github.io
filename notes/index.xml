@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on 疯狂蜗牛</title>
+    <link>http://example.org/notes/</link>
+    <description>Recent content in Notes on 疯狂蜗牛</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>vue svg 雪碧图</title>
+      <link>http://example.org/notes/vue/svg-sprite/</link>
+      <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/notes/vue/svg-sprite/</guid>
+      <description>svg-sprite-loader </description>
+    </item>
+    
+    <item>
+      <title>Stylus</title>
+      <link>http://example.org/notes/css/stylus/</link>
+      <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/notes/css/stylus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>经验</title>
+      <link>http://example.org/notes/css/experience/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/notes/css/experience/</guid>
+      <description>被包裹的 img 元素与父元素下沿有一个缝隙 img 的 display 属性默认是 inline, vertical-align 默认是 baseline, 所以 img 底部会与文字基线对齐, 造成缝隙的出现.
+解决方法有两个:
+ vertical-align: middle display: block  文本超出部分显示为省略号 .ellipsis { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; } height 的 inherit 属性不生效 只有当父元素明确声明 height 时才会生效</description>
+    </item>
+    
+    <item>
+      <title>powershell</title>
+      <link>http://example.org/notes/powershell/powershell/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/notes/powershell/powershell/</guid>
+      <description>启动脚本 PowerShellGet\Install-Module posh-git -Scope CurrentUser -AllowPrerelease -Force Install-Module PSReadLine -AllowPrerelease -Force Install-Module -Name yarn-completion Install-Module -Name NPMTabCompletion 环境变量 about_Automatic_Variables
+ $PSVersionTable: ps 版本信息 $PROFILE: 当前用户的启动配置文件  执行策略 默认的执行策略是 restricted, 即禁止运行任何脚本。Get-ExecutionPolicy 获取当前执行策略, Set-ExecutionPolicy -ExecutionPolicy 设置执行策略, 建议修改为 RemoteSigned.
+命令 Get-Member Get-Member 接受一个对象, 然后打印出对象的 Member.
+ Get-Member -MemberType: 选择打印 Member 的类型  Get-Command  Get-Command -ParameterType typename: 根据接受参数的类型查找命令 Get-Command -Module moduleName: 获取模块相关的命令  Select-Object  xxx | Select-Object -Property properties: 通过管道接收一个对象, 选择打印哪些 Property  Out-Host 打印字符串到屏幕</description>
+    </item>
+    
+    <item>
+      <title>指令</title>
+      <link>http://example.org/notes/vue/directive/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/notes/vue/directive/</guid>
+      <description>v-on  缩写: @ 参数: event   v-model v-if v-else v-for v-bind </description>
+    </item>
+    
+    <item>
+      <title>数据绑定</title>
+      <link>http://example.org/notes/vue/data-binding/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/notes/vue/data-binding/</guid>
+      <description>vue 不仅可以把数据绑定到 DOM 文本或 attribute, 还可以绑定到 DOM 结构
+父子组件数据传递 </description>
+    </item>
+    
+    <item>
+      <title>移动端适配</title>
+      <link>http://example.org/notes/css/mobile/</link>
+      <pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/notes/css/mobile/</guid>
+      <description>响应式 web 网页 响应式网页设计用到的现代技术：
+ 媒体查询 多列布局 flexbox grid viewport 响应式图像 响应式排版  viewport &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1&amp;gt;  initial-scale：设定了页面的初始缩放，我们设定为1。 width：设置视口宽度。 height：特别为视口设定一个高度。 minimum-scale：设定最小缩放级别。 maximum-scale：设定最大缩放级别。 user-scalable：如果设为no的话阻止缩放。  </description>
+    </item>
+    
+    <item>
+      <title>数据类型</title>
+      <link>http://example.org/notes/javascript/data-types/</link>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/notes/javascript/data-types/</guid>
+      <description>JavaScript 有六种数据类型，（ES6 新增一种 Symbol 类型）：
+ 数值（number） 字符串（string） 布尔值（boolean） undefined null 对象（object）  数值、字符串、布尔值属于原始类型，即他们是最基本的类型。至于 undefined 和 null，一般将他们看成两个特殊的值。 对象属于复合类型，它又分为三个子类型：
+ 狭义对象（object） 数组（array） 函数（function）  确定一个类型 JavaScript 有三种方法确定一个数据的类型：
+ typeof 运算符 instanceof 运算符 Object.prototype.toString 方法  对于数值、字符串、布尔值，typeof 运算符分别返回 number 、 string 、 boolean 。函数返回 function 。
+typeof 1; // &amp;#34;number&amp;#34; typeof &amp;#39;1&amp;#39;; // &amp;#34;string&amp;#34; typeof true; // &amp;#34;boolean&amp;#34;  function f() {} typeof f // &amp;#34;function&amp;#34; undefined 返回 &amp;ldquo;undefined。利用这一点，typeof 可以用来检查一个没有声明的变量，而不报错。实际编程中通常用于判断语句。
+v; // Uncaught ReferenceError: v is not defined  typeof v; // &amp;#34;undefined&amp;#34;  // 实际应用 if (typeof v === &amp;#34;undefined&amp;#34;) { // .</description>
+    </item>
+    
+    <item>
+      <title>网页布局</title>
+      <link>http://example.org/notes/css/layout/</link>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/notes/css/layout/</guid>
+      <description>flex flexbox 是一种一维的布局模型, 这里的一维是指一次只能处理一个维度上的元素布局, 一行或一列 (grid 属于二维布局).
+两根轴线 当使用 flex 布局时, 首先要想到的就是两根轴线 &amp;mdash; 主轴 (main axis) 和交叉轴 (cross axis). 主轴由属性 flex-direction 定义, 交叉轴垂直于他.
+flex-direction 可以取 4 个值:
+ row row-reverse column column-reverse  前两个值代表主轴延水平方向, 后两个值代表主轴延上下方向.</description>
+    </item>
+    
+    <item>
+      <title>运算符</title>
+      <link>http://example.org/notes/javascript/operators/</link>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/notes/javascript/operators/</guid>
+      <description>所有的比较运算符均返回布尔值
+不同类型间的比较 当对不同类型的值进行比较时，JavaScript 会首先将其转化为数字（number）再判定大小。
+== 和 === 严格相等运算符 === 在作比较时不会做任何类型转换。换句话说，如果两个值属于不同类型，那么两者将不会进行任何比较，直接返回 false。
+这里有一个特例，null 和 undefined, 当使用严格相等运算符比较时两者不等，因为两者属于不同类型。但是当用普通相等运算符 == 时，二者相等，这是因为 JavaScript 存在一个独立的特殊规则会判定二者相等。
+null == undefiled; // true 这个规则不会将二者转换为数字，而是直接判定相等，并且在此规则下，只有二者相等，二者不等于任何其他值。当使用其他数学式或比较方法 &amp;lt; &amp;gt; &amp;lt;= &amp;gt;= 时 null 及 undefined 则会被转换为数字：null 转为 0，undefined 转为 NaN。
+null &amp;gt; 0; false null == 0; false null &amp;gt;= 0; true </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/notes/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/notes/readme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>http://example.org/notes/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/notes/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>yarn</title>
+      <link>http://example.org/notes/yarn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/notes/yarn/</guid>
+      <description>安装 $ npm install -g yarn
+配置 yarn 全局安装的包在 windows 的路径是 C:\Users\username\AppData\Local\Yarn\bin, 需要将其添加至 PATH 中</description>
+    </item>
+    
+  </channel>
+</rss>

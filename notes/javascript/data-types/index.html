@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>疯狂蜗牛</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/article.css">
+    
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/vs.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+    
+</head><body><header>
+    <div class="container">
+        <a href="/" class="site-title">疯狂蜗牛</a>
+        <nav>
+            <ul>
+                
+                
+                <li>
+                    <a href="/tags/">标签</a>
+                </li>
+                
+                <li>
+                    <a href="/categories/">分类</a>
+                </li>
+                
+                <li>
+                    <a href="/about/">关于</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</header><div class="content">
+<article>
+    <div class="front-matter">
+        <div class="title">数据类型</div>
+        <div class="other-info">
+            <span class="author"></span>
+            <span class="date">发起于：2021-00-00</span>
+            <span class="lastmod">最近编辑于：2021-08-21</span>
+        </div>
+    </div>
+    <p>JavaScript 有六种数据类型，（ES6 新增一种 Symbol 类型）：</p>
+<ul>
+<li>数值（number）</li>
+<li>字符串（string）</li>
+<li>布尔值（boolean）</li>
+<li>undefined</li>
+<li>null</li>
+<li>对象（object）</li>
+</ul>
+<p>数值、字符串、布尔值属于原始类型，即他们是最基本的类型。至于 undefined 和 null，一般将他们看成两个特殊的值。
+对象属于复合类型，它又分为三个子类型：</p>
+<ul>
+<li>狭义对象（object）</li>
+<li>数组（array）</li>
+<li>函数（function）</li>
+</ul>
+<h2 id="确定一个类型">确定一个类型</h2>
+<p>JavaScript 有三种方法确定一个数据的类型：</p>
+<ul>
+<li>typeof 运算符</li>
+<li>instanceof 运算符</li>
+<li>Object.prototype.toString 方法</li>
+</ul>
+<p>对于数值、字符串、布尔值，typeof 运算符分别返回 <code>number</code> 、 <code>string</code> 、 <code>boolean</code> 。函数返回 <code>function</code> 。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">typeof</span> <span style="color:#ae81ff">1</span>; <span style="color:#75715e">// &#34;number&#34;
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">typeof</span> <span style="color:#e6db74">&#39;1&#39;</span>; <span style="color:#75715e">// &#34;string&#34;
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">typeof</span> <span style="color:#66d9ef">true</span>; <span style="color:#75715e">// &#34;boolean&#34;
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">function</span> <span style="color:#a6e22e">f</span>() {}
+<span style="color:#66d9ef">typeof</span> <span style="color:#a6e22e">f</span> <span style="color:#75715e">// &#34;function&#34;
+</span></code></pre></div><p>undefined 返回 &ldquo;undefined。利用这一点，typeof 可以用来检查一个没有声明的变量，而不报错。实际编程中通常用于判断语句。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">v</span>; <span style="color:#75715e">// Uncaught ReferenceError: v is not defined
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">typeof</span> <span style="color:#a6e22e">v</span>; <span style="color:#75715e">// &#34;undefined&#34;
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">// 实际应用
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">typeof</span> <span style="color:#a6e22e">v</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#34;undefined&#34;</span>) {
+ 		<span style="color:#75715e">// ... 
+</span><span style="color:#75715e"></span>}
+</code></pre></div><p>对象返回 <code>object</code></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">typeof</span> {}; <span style="color:#75715e">// &#34;object&#34;
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">typeof</span> []; <span style="color:#75715e">// &#34;object&#34;
+</span></code></pre></div><p>在 JavaScript 中数组是一种特殊的对象，利用 <code>instanceof</code> 可以实际的区分数组和对象。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">o</span> <span style="color:#f92672">=</span> {};
+<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">a</span> <span style="color:#f92672">=</span> [];
+
+<span style="color:#a6e22e">o</span> <span style="color:#66d9ef">instanceof</span> Array; <span style="color:#75715e">// false
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">a</span> <span style="color:#66d9ef">instanceof</span> Array; <span style="color:#75715e">// true
+</span></code></pre></div><p>null 会返回 <code>object</code> ，这是历史原因造成的。</p>
+<h2 id="nullundefined布尔值">null、undefined、布尔值</h2>
+<p><code>null</code> 和 <code>undefined</code> 含义非常相似，都可以表示没有，甚至 <code>==</code> 运算符直接报告两者相等，但又有些不同。出于历史原因，两者尴尬的共存了。两者的区别是这样的，<code>null</code> 是一个表示空的对象，转换为数值时为 <code>0</code>；<code>undefined</code> 是一个表示 “此处无定义” 的原始值，转换为数值时为 <code>NaN</code> 。
+返回 <code>undefined</code> 的典型场景：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// 变量声明了，但没有赋值
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">i</span>;
+<span style="color:#a6e22e">i</span> <span style="color:#75715e">// undefined
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">// 调用函数时，应该提供的参数没有提供，该参数等于 undefined
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">f</span>(<span style="color:#a6e22e">x</span>) {
+  <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">x</span>;
+}
+<span style="color:#a6e22e">f</span>() <span style="color:#75715e">// undefined
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">// 对象没有赋值的属性
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">var</span>  <span style="color:#a6e22e">o</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Object();
+<span style="color:#a6e22e">o</span>.<span style="color:#a6e22e">p</span> <span style="color:#75715e">// undefined
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">// 函数没有返回值时，默认返回 undefined
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">f</span>() {}
+<span style="color:#a6e22e">f</span>() <span style="color:#75715e">// undefined
+</span></code></pre></div><p>布尔值代表“真”和“假”两个状态。如果 JavaScript 预期某个位置应该是布尔值，会将该位置上现有的值自动转为布尔值。转换规则是除了下面六个值被转为<code>false</code>，其他值都视为<code>true</code>。</p>
+<ul>
+<li><code>undefined</code></li>
+<li><code>null</code></li>
+<li><code>false</code></li>
+<li><code>0</code></li>
+<li><code>NaN</code></li>
+<li><code>&quot;&quot;</code>、<code>''</code></li>
+</ul>
+<p>注意，空数组（<code>[]</code>）和空对象（<code>{}</code>）对应的布尔值，都是<code>true</code>。</p>
+<h3 id="类型转换">类型转换</h3>
+<p>在大多数情况下，运算符和函数会自动将赋予他们的值转换为正确的类型，称为隐式转换。也可以显式进行转换：
+字符串转换</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">value</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>;
+String(<span style="color:#a6e22e">value</span>); <span style="color:#75715e">// &#34;true&#34;
+</span></code></pre></div><h2 id="数值">数值</h2>
+<p>JavaScript 内部，所有数字都是以 64 位浮点数形式存储，整数亦是如此。所以 <code>1</code> 和 <code>1.0</code> 是相同的。容易造成混淆的是，某些运算只有整数才能完成，此时 JavaScript 会自动把64位浮点数，转成32位整数，然后再进行运算。
+JavaScript 中有几个特殊的数值：</p>
+<ul>
+<li>正负 0</li>
+<li>NaN</li>
+<li>Infinity</li>
+</ul>
+
+</article>
+
+        </div></body>
+</html>
