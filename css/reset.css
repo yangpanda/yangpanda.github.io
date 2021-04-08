@@ -13,3 +13,11 @@ ul {
 article {
     box-sizing: border-box;
 }
+
+div {
+    box-sizing: border-box;
+}
+
+pre {
+    white-space: pre-wrap;
+}

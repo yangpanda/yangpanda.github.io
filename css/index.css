@@ -57,6 +57,5 @@ header .container nav ul li a {
 .content {
     display: flex;
     justify-content: center;
-    width: fit-content;
-    margin: calc(var(--header-height) + 10px) auto 10px;
+    padding: calc(var(--header-height) + 10px) 10px 10px;
 }
