@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>javascript on 疯狂蜗牛</title>
-    <link>http://example.org/categories/javascript/</link>
+    <link>http://yangpanda.github.io/categories/javascript/</link>
     <description>Recent content in javascript on 疯狂蜗牛</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 10 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 10 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://yangpanda.github.io/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>数据类型</title>
-      <link>http://example.org/notes/javascript/data-types/</link>
+      <link>http://yangpanda.github.io/notes/javascript/data-types/</link>
       <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/notes/javascript/data-types/</guid>
+      <guid>http://yangpanda.github.io/notes/javascript/data-types/</guid>
       <description>JavaScript 有六种数据类型，（ES6 新增一种 Symbol 类型）：
  数值（number） 字符串（string） 布尔值（boolean） undefined null 对象（object）  数值、字符串、布尔值属于原始类型，即他们是最基本的类型。至于 undefined 和 null，一般将他们看成两个特殊的值。 对象属于复合类型，它又分为三个子类型：
  狭义对象（object） 数组（array） 函数（function）  确定一个类型 JavaScript 有三种方法确定一个数据的类型：
@@ -23,10 +23,10 @@ v; // Uncaught ReferenceError: v is not defined  typeof v; // &amp;#34;undefined
     
     <item>
       <title>运算符</title>
-      <link>http://example.org/notes/javascript/operators/</link>
+      <link>http://yangpanda.github.io/notes/javascript/operators/</link>
       <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/notes/javascript/operators/</guid>
+      <guid>http://yangpanda.github.io/notes/javascript/operators/</guid>
       <description>所有的比较运算符均返回布尔值
 不同类型间的比较 当对不同类型的值进行比较时，JavaScript 会首先将其转化为数字（number）再判定大小。
 == 和 === 严格相等运算符 === 在作比较时不会做任何类型转换。换句话说，如果两个值属于不同类型，那么两者将不会进行任何比较，直接返回 false。

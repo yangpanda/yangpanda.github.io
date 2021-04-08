@@ -2,116 +2,116 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 疯狂蜗牛</title>
-    <link>http://example.org/tags/</link>
+    <link>http://yangpanda.github.io/tags/</link>
     <description>Recent content in Tags on 疯狂蜗牛</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 25 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 25 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://yangpanda.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>git</title>
-      <link>http://example.org/tags/git/</link>
+      <link>http://yangpanda.github.io/tags/git/</link>
       <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/git/</guid>
+      <guid>http://yangpanda.github.io/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>svg</title>
-      <link>http://example.org/tags/svg/</link>
+      <link>http://yangpanda.github.io/tags/svg/</link>
       <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/svg/</guid>
+      <guid>http://yangpanda.github.io/tags/svg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vue</title>
-      <link>http://example.org/tags/vue/</link>
+      <link>http://yangpanda.github.io/tags/vue/</link>
       <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/vue/</guid>
+      <guid>http://yangpanda.github.io/tags/vue/</guid>
       <description></description>
     </item>
     
     <item>
       <title>yarn</title>
-      <link>http://example.org/tags/yarn/</link>
+      <link>http://yangpanda.github.io/tags/yarn/</link>
       <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/yarn/</guid>
+      <guid>http://yangpanda.github.io/tags/yarn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>前端</title>
-      <link>http://example.org/tags/%E5%89%8D%E7%AB%AF/</link>
+      <link>http://yangpanda.github.io/tags/%E5%89%8D%E7%AB%AF/</link>
       <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/%E5%89%8D%E7%AB%AF/</guid>
+      <guid>http://yangpanda.github.io/tags/%E5%89%8D%E7%AB%AF/</guid>
       <description></description>
     </item>
     
     <item>
       <title>css</title>
-      <link>http://example.org/tags/css/</link>
+      <link>http://yangpanda.github.io/tags/css/</link>
       <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/css/</guid>
+      <guid>http://yangpanda.github.io/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>stylus</title>
-      <link>http://example.org/tags/stylus/</link>
+      <link>http://yangpanda.github.io/tags/stylus/</link>
       <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/stylus/</guid>
+      <guid>http://yangpanda.github.io/tags/stylus/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PowerShell</title>
-      <link>http://example.org/tags/powershell/</link>
+      <link>http://yangpanda.github.io/tags/powershell/</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/powershell/</guid>
+      <guid>http://yangpanda.github.io/tags/powershell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>shell</title>
-      <link>http://example.org/tags/shell/</link>
+      <link>http://yangpanda.github.io/tags/shell/</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/shell/</guid>
+      <guid>http://yangpanda.github.io/tags/shell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>脚本</title>
-      <link>http://example.org/tags/%E8%84%9A%E6%9C%AC/</link>
+      <link>http://yangpanda.github.io/tags/%E8%84%9A%E6%9C%AC/</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/%E8%84%9A%E6%9C%AC/</guid>
+      <guid>http://yangpanda.github.io/tags/%E8%84%9A%E6%9C%AC/</guid>
       <description></description>
     </item>
     
     <item>
       <title>html</title>
-      <link>http://example.org/tags/html/</link>
+      <link>http://yangpanda.github.io/tags/html/</link>
       <pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/html/</guid>
+      <guid>http://yangpanda.github.io/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>javascript</title>
-      <link>http://example.org/tags/javascript/</link>
+      <link>http://yangpanda.github.io/tags/javascript/</link>
       <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/javascript/</guid>
+      <guid>http://yangpanda.github.io/tags/javascript/</guid>
       <description></description>
     </item>
     

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>stylus on 疯狂蜗牛</title>
-    <link>http://example.org/tags/stylus/</link>
+    <link>http://yangpanda.github.io/tags/stylus/</link>
     <description>Recent content in stylus on 疯狂蜗牛</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 23 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/stylus/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 23 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://yangpanda.github.io/tags/stylus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Stylus</title>
-      <link>http://example.org/notes/css/stylus/</link>
+      <link>http://yangpanda.github.io/notes/css/stylus/</link>
       <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/notes/css/stylus/</guid>
+      <guid>http://yangpanda.github.io/notes/css/stylus/</guid>
       <description></description>
     </item>
     

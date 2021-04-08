@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>yarn on 疯狂蜗牛</title>
-    <link>http://example.org/tags/yarn/</link>
+    <link>http://yangpanda.github.io/tags/yarn/</link>
     <description>Recent content in yarn on 疯狂蜗牛</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 25 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/yarn/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 25 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://yangpanda.github.io/tags/yarn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>yarn</title>
-      <link>http://example.org/notes/yarn/</link>
+      <link>http://yangpanda.github.io/notes/yarn/</link>
       <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/notes/yarn/</guid>
+      <guid>http://yangpanda.github.io/notes/yarn/</guid>
       <description>安装 $ npm install -g yarn
 配置 yarn 全局安装的包在 windows 的路径是 C:\Users\username\AppData\Local\Yarn\bin, 需要将其添加至 PATH 中</description>
     </item>

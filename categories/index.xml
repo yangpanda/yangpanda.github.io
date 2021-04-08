@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 疯狂蜗牛</title>
-    <link>http://example.org/categories/</link>
+    <link>http://yangpanda.github.io/categories/</link>
     <description>Recent content in Categories on 疯狂蜗牛</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 25 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 25 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://yangpanda.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>vue</title>
-      <link>http://example.org/categories/vue/</link>
+      <link>http://yangpanda.github.io/categories/vue/</link>
       <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/categories/vue/</guid>
+      <guid>http://yangpanda.github.io/categories/vue/</guid>
       <description></description>
     </item>
     
     <item>
       <title>css</title>
-      <link>http://example.org/categories/css/</link>
+      <link>http://yangpanda.github.io/categories/css/</link>
       <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/categories/css/</guid>
+      <guid>http://yangpanda.github.io/categories/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PowerShell</title>
-      <link>http://example.org/categories/powershell/</link>
+      <link>http://yangpanda.github.io/categories/powershell/</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/categories/powershell/</guid>
+      <guid>http://yangpanda.github.io/categories/powershell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>javascript</title>
-      <link>http://example.org/categories/javascript/</link>
+      <link>http://yangpanda.github.io/categories/javascript/</link>
       <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/categories/javascript/</guid>
+      <guid>http://yangpanda.github.io/categories/javascript/</guid>
       <description></description>
     </item>
     
