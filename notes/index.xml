@@ -8,12 +8,31 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 25 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>git</title>
+      <link>http://example.org/notes/git/</link>
+      <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/notes/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>vue svg 雪碧图</title>
       <link>http://example.org/notes/vue/svg-sprite/</link>
       <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/notes/vue/svg-sprite/</guid>
       <description>svg-sprite-loader </description>
+    </item>
+    
+    <item>
+      <title>yarn</title>
+      <link>http://example.org/notes/yarn/</link>
+      <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/notes/yarn/</guid>
+      <description>安装 $ npm install -g yarn
+配置 yarn 全局安装的包在 windows 的路径是 C:\Users\username\AppData\Local\Yarn\bin, 需要将其添加至 PATH 中</description>
     </item>
     
     <item>
@@ -115,34 +134,6 @@ flex-direction 可以取 4 个值:
 这里有一个特例，null 和 undefined, 当使用严格相等运算符比较时两者不等，因为两者属于不同类型。但是当用普通相等运算符 == 时，二者相等，这是因为 JavaScript 存在一个独立的特殊规则会判定二者相等。
 null == undefiled; // true 这个规则不会将二者转换为数字，而是直接判定相等，并且在此规则下，只有二者相等，二者不等于任何其他值。当使用其他数学式或比较方法 &amp;lt; &amp;gt; &amp;lt;= &amp;gt;= 时 null 及 undefined 则会被转换为数字：null 转为 0，undefined 转为 NaN。
 null &amp;gt; 0; false null == 0; false null &amp;gt;= 0; true </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://example.org/notes/readme/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/notes/readme/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>git</title>
-      <link>http://example.org/notes/git/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/notes/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>yarn</title>
-      <link>http://example.org/notes/yarn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/notes/yarn/</guid>
-      <description>安装 $ npm install -g yarn
-配置 yarn 全局安装的包在 windows 的路径是 C:\Users\username\AppData\Local\Yarn\bin, 需要将其添加至 PATH 中</description>
     </item>
     
   </channel>
